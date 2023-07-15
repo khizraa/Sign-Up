@@ -1,0 +1,46 @@
+body{margin: 0;
+    background-color: rgb(33, 111, 207);}
+
+p{color: gray;}
+
+.formargin{margin: 5vw 30vw;
+    display: inline-block;
+    border: 1px solid rgb(218, 215, 215);
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 35vw;}
+    
+.fortextmargin{margin: 2vw;}
+
+
+a{color: white;
+    display: inline-block;
+    background-color: green;
+    padding:0.5vw 2vw;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    width: 6vw;
+text-align: center;
+margin-left: 10vw;}
+
+
+input[type=text], select{
+    padding:0.5vw 0.3vw;
+border-radius: 0.3vw;
+border: 2px solid rgb(225, 219, 219);}
+
+input[type=email]{
+    padding:0.5vw 0.3vw;
+    width: 100%;
+    border-radius: 0.3vw;
+    border: 2px solid rgb(225, 219, 219);}
+
+input[type=radio]{
+    display: inline-block;
+    border: 0.5vw rgb(225, 219, 219);
+    accent-color: green;}
+
+ input[type=text]:focus, input[type=email]:focus , select:focus{
+    border: 3px solid green;
+    outline: none;}
